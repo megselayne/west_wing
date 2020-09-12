@@ -18,4 +18,11 @@ export default StyleSheet.create({
       height: 100,
       width: 200,
     },
+    answerButtonContainer: {
+      flexDirection: 'row',
+      flexWrap: 'wrap',
+    },
+    buttonStyle: {
+      color: 'red'
+    }
   });

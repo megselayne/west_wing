@@ -12,7 +12,7 @@ class HomePage extends Component {
                 <Text style={styles.subTitle}>Ready to Get Started?</Text>
                 <Button
                 title="Press me"
-                onPress={() => this.props.navigation.navigate('SecondPage')}
+                onPress={() => this.props.navigation.navigate('Questions')}
                     />
             </View>
         )

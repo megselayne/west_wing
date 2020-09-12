@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
 import styles from './components/Styles';
 import HomePage from './components/HomePage';
-import SecondPage from './components/SecondPage';
+import FirstQ from './components/FirstQ';
 import { Button, View, Image, Text, Alert } from 'react-native';
 
 const Stack = createStackNavigator();
@@ -19,8 +19,8 @@ const App = () => {
             component={HomePage}
           />
           <Stack.Screen
-            name="SecondPage"
-            component={SecondPage}
+            name="Questions"
+            component={FirstQ}
           />
         </Stack.Navigator>
     </NavigationContainer>

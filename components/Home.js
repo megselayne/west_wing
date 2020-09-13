@@ -11,7 +11,7 @@ class Home extends Component {
                 <Image style={styles.logo} source={{uri: 'https://hyperpix.net/wp-content/uploads/2020/04/the-west-wing-logo-font-free-download-1200x679.jpg',}} />
                 <Text style={styles.title}>Welcome to West Wing Trivia!</Text>
                 <Text style={styles.subTitle}>Ready to Get Started?</Text>
-                <Button title="Go to Two" onPress={() => this.props.navigation.navigate('Two')} />
+                <Button title="Start" onPress={() => this.props.navigation.navigate('Two')} />
             </View>
         )
     }

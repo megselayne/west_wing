@@ -44,7 +44,7 @@ class Questions extends Component {
         return(
             <View style={styles.container}>
                 <Image style={styles.logo} source={{uri: 'https://hyperpix.net/wp-content/uploads/2020/04/the-west-wing-logo-font-free-download-1200x679.jpg',}} />
-                {(this.state.validity) && <Text style={styles.subTitle}>{this.state.validity}!</Text>}
+                {(this.state.validity) && <Text style={styles.subTitle}>{this.state.validity}</Text>}
                 <Text style={styles.title}>Question {this.state.counter}!</Text>
                 <Text style={styles.subTitle}>{questionData[this.state.index].question}</Text>
                 <AnswerButtons index={this.state.index} validity={this.state.validity} checkAnswer={this.checkAnswer}/>
